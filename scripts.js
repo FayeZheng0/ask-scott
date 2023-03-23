@@ -200,6 +200,10 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   refreshBtn.addEventListener("click", function () {
+    conversationId=null
+    while (chatHistory.firstChild) {
+      chatHistory.removeChild(chatHistory.firstChild);
+    }
     createOrUpdateConversation();
   });
 });
