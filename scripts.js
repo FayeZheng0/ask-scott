@@ -9,7 +9,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const VITE_APP_ID = "YOUR_APP_ID"; // replace with your APP_ID
   const VITE_SECRET = "YOUR_APP_SECRET"; //replace with your APP_Secret
   const VITE_BOT_ID = YOUR_BOT_ID // fill your bot_id
-
+  const BASE_URL="https://botastic-api.pando.im"
+  
   let messageSent = false;
 
   function addLeftMsg(message) {
